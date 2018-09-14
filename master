@@ -1,0 +1,28 @@
+# ArrayInsertion
+26th program on c
+#include<stdio.h>
+int main()
+{
+int al[10],n,i,position,value,j;
+printf("Enter the no of elements \n");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("Enter the elements \n");
+scanf("%d",&al[i]);
+}
+for(i=0;i<n;i++)
+{
+printf("%d ",al[i]);
+}
+printf("Enter the position you want to insert \n");
+scanf("%d",&position);
+printf("Enter the value \n");
+scanf("%d",&value);
+al[position]=value;
+for(i=0;i<n;i++)
+{
+printf("%d ",al[i]);
+} 
+return (0);
+}
